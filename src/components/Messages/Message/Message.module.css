@@ -1,0 +1,27 @@
+.message-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.message {
+    max-width: 90%;
+    background-color: #F5F8FA;
+    overflow-wrap: break-word;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.button {
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 100%;
+    background-color: #E1E8ED;
+    color: #FFFFFF;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
