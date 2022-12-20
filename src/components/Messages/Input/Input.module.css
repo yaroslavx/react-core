@@ -12,7 +12,7 @@
     border: none;
     border-radius: 10px;
     outline: none;
-    background-color: #F5F8FA;
+    background-color: var(--extra-extra-light-gray);
 
 }
 
@@ -21,7 +21,7 @@
     border-radius: 10px;
     outline: none;
     border: none;
-    background-color: #1DA1F2;
+    background-color: var(--main-blue);
     color: #FFFFFF;
     padding: 3px 10px;
     cursor: pointer;
