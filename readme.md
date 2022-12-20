@@ -1,6 +1,8 @@
 # Lesson 1
 
-# Install
+![Preview](images/preview.png)
+
+## Install
 
 ```sh
 yarn
@@ -12,7 +14,7 @@ or
 npm install
 ```
 
-# Run
+## Run
 
 ```sh
 yarn start
