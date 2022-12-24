@@ -1,6 +1,6 @@
 # Lesson 2
 
-![Preview](images/preview.png)
+![Preview](images/preview_lesson2.png)
 
 ## Install
 
