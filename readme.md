@@ -1,4 +1,4 @@
-# Lesson 1
+# Lesson 2
 
 ![Preview](images/preview.png)
 
