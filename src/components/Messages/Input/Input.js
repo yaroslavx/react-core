@@ -9,7 +9,12 @@ class Input extends Component {
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
+    this.focusInput = this.focusInput.bind(this);
     this.inputRef = createRef();
+  }
+
+  focusInput() {
+    this.inputRef.current.focus();
   }
 
   static getDerivedStateFromProps() {
@@ -19,7 +24,7 @@ class Input extends Component {
 
   componentDidMount() {
     console.log('Input mounted');
-    this.inputRef.current.focus();
+    this.focusInput();
   }
 
   getSnapshotBeforeUpdate() {
@@ -67,8 +72,15 @@ class Input extends Component {
           value={this.state.messageText}
           onChange={this.handleChange}
         />
-        <button className={styles.button} type='submit'>
+        <button
+          disabled={this.state.messageText.includes('react')}
+          className={styles.button}
+          type='submit'
+        >
           Send message
+        </button>
+        <button onClick={this.focusInput} className={styles.button}>
+          Focus
         </button>
       </form>
     );
